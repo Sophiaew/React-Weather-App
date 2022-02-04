@@ -15,7 +15,7 @@ export default function Weather(props) {
   return (
     <div>
       <h2>Hello!</h2>
-      <Circles color="#00BFFF" height={80} width={80} />
+      <Circles color="#orange" height={80} width={80} />
     </div>
   );
 }
