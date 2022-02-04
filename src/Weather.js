@@ -14,8 +14,8 @@ export default function Weather(props) {
   axios.get(apiUrl).then(handleResponse);
   return (
     <div>
-      <h2>Hello!</h2>
-      <Circles color="#orange" height={80} width={80} />
+      <h2>Here's the weather!</h2>
+      <Circles color="orange" height={80} width={80} />
     </div>
   );
 }
